@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@dword-design/eslint-plugin-import-alias": "../eslint-plugin-import-alias/",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.24.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "nuxt": "^2.15.4"
+  }
+}

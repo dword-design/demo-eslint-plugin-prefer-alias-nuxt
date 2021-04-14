@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:vue/recommended",
+    "eslint:recommended",
+    "plugin:@dword-design/eslint-plugin-import-alias/recommended"
+  ],
+  "rules": {
+    "@dword-design/import-alias/prefer-alias": ["error", {
+      "alias": {
+        "@": "."
+      }
+    }]
+  }
+}
